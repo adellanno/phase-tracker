@@ -8,7 +8,7 @@ Author: Anthony Dell'Anno
 
 ## How to Install and Run the Project
 
-# Backend
+### Backend
 ```bash
 cd ./backend
 npm install
@@ -16,7 +16,7 @@ npm run build
 npm run start
 ```
 
-# Frontend
+### Frontend
 ```bash
 cd ./frontend
 npm install
