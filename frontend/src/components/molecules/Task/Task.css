@@ -1,0 +1,13 @@
+.task-container {
+  display: block;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.task-container > * {
+  display: inline-block;
+}
+
+.task-container > p {
+  margin-left: 25px;
+}

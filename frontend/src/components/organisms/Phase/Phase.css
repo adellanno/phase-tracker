@@ -1,0 +1,22 @@
+.phase-container {
+  background-color: white;
+  align-items: center;
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+
+.phase-header > * {
+  display: inline-block;
+}
+
+.phase-header > :first-child {
+  margin-right: 20px;
+}
+
+.phase-header > p {
+  font: 32px Arial, sans-serif;
+  margin-right: 30px;
+}

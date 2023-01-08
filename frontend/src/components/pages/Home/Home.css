@@ -1,0 +1,27 @@
+.home-container {
+  min-width: 600px;
+  width: 50%;
+  background-color: #d6d6d6;
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  flex-flow: wrap;
+  margin: 50px;
+}
+
+.home-container > h1 {
+  padding-left: 50px;
+  margin-bottom: 0;
+}
+
+.home-content {
+  width: 100%;
+  background-color: #d6d6d6;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  flex-flow: wrap;
+  padding: 50px;
+}
+

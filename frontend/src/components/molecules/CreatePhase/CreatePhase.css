@@ -1,0 +1,19 @@
+.create-phase-container {
+  background-color: white;
+  align-items: center;
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.create-phase-container > p {
+  font: 30px Arial, sans-serif;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.create-phase-form {
+  width: 100%;
+  display: block;
+}

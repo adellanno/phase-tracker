@@ -1,0 +1,12 @@
+.create-task-container {
+  background-color: white;
+  align-items: center;
+  width: 80%;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.create-task-form {
+  width: 100%;
+  display: block;
+}

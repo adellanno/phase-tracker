@@ -1,0 +1,9 @@
+.random-fact-container {
+    background-color: #65bf6b;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
