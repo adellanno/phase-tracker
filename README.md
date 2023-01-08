@@ -19,6 +19,7 @@ npm run start
 ### Frontend
 ```bash
 cd ./frontend
+# Configure the port for the backend server in src/config.js otherwise it will default to 8000
 npm install
 npm run start
 ```

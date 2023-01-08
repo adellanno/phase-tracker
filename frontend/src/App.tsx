@@ -1,5 +1,6 @@
 import "./App.css";
 import Home from "./components/pages/Home/Home";
+import config from './config'
 import {
   ApolloClient,
   InMemoryCache,
@@ -8,7 +9,7 @@ import {
 } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: "http://127.0.0.1:8000/graphql",
+  uri: `http://127.0.0.1:${config.BACKEND_HOST_PORT ? config.BACKEND_HOST_PORT : 8000}/graphql`,
   cache: new InMemoryCache(),
 });
 
